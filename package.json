@@ -1,0 +1,27 @@
+{
+  "name": "whois-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsRealmy/Whois-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsRealmy/Whois-API/issues"
+  },
+  "homepage": "https://github.com/ItsRealmy/Whois-API#readme",
+  "dependencies": {
+    "@layered/dns-records": "^1.5.0",
+    "check-domain-availability": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
+}
